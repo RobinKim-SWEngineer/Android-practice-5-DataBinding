@@ -10,7 +10,7 @@ Through a `Binding` object, we get a reference to the view and can access them d
  - Data binding has to be explicitly enabled in the Gradle file becuase it increases the compile time. Inside the android section we need to add the following :
    ```
    buildFeatures {
-   	dataBinding true
+      dataBinding true
    }
    ```
    
