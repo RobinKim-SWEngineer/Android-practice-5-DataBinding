@@ -63,7 +63,6 @@ Through a `Binding` object, we get a reference to the view and can access them d
     ```
     binding.userName = MyName("Robin", "Robinku")
     ```
-    
     >> To have the updated UI make effect, call `binding.invalidateAll()`
     
     
