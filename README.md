@@ -45,7 +45,7 @@ Through a `Binding` object, we get a reference to the view and can access them d
     data class MyName(var name: String = "", var nickName: String = "")
     ```
     
- - Add the **data class reference** to the layout with <data> and <variable> tag as below. The `type` parameter should be the name of the data class with package name. Now we can reference the userName variable to set the text of view.
+ - Add the **data class reference** to the layout with `<data>` and `<variable>` tag as below. The `type` parameter should be the name of the data class with package name. Now we can reference the userName variable to set the text of view.
 
     ```
     <data>
