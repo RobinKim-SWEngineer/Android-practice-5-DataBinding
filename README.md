@@ -59,7 +59,7 @@ Through a `Binding` object, we get a reference to the view and can access them d
         android:text="@={userName.name}" />
     ```
 
- - In the activity after instantiation of a data class object, we assign it to userName through binding object.
+ - In the activity after instantiation of a data class object, we **assign it** to userName **through binding object**.
     ```
     binding.userName = MyName("Robin", "Robinku")
     ```
