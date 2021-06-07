@@ -13,7 +13,7 @@ Through a `Binding` object, we get a reference to the view and can access them d
    }
    ```
    
- - The XML layout has to be wrapped by `<layout>` tag. Upon compiler seeing this tag, it will auto-generate the **binding class** whose name is derived as PascalCase from that of layout file. The namespace declarations must also be in the `<layout>` tag. 
+ - The XML layout has to be wrapped by `<layout>` tag. Upon compiler seeing this tag, it will auto-generate the **binding class** whose name is derived as PascalCase from that of layout file. In this case, the binding class name will be *ActivityMainBinding* from activity_name.xml. The namespace declarations must also be in the `<layout>` tag. 
 
 ## Creating a data binding object
  - Use `setContentView(..)` in `DataBindingUtil` class instead of auto-generated `setContentView(..)` method. This will set the activity's content view and also **return the binding object** to the given layout. 
